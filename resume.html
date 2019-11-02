@@ -3,59 +3,150 @@
   <head>
     <meta charset="UTF-8" />
     <title>Zhenyuan Resume</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
+
     <header>
-      <h1>Zhenyuan Wang</h1>
-      <nav>
-        <!-- link to different sections (unfinished)-->
-        <a>About</a>
-        <a>Projects</a>
-        <a>Contact</a>
-      </nav>
+      <article>
+        <div></div>
+        <h1>
+          <span>Hi!</span>
+          I'm <strong>Zhenyuan Wang</strong>
+        </h1>
+        <p>I am a sophomore at University of Miami who double major in <strong>Computer Science</strong> and <strong>Mathematics</strong>. I has experience in full-stack web development, software development, signal processing, data optimization, machine learning, deep learning and more.</p>
+      </article>
     </header>
 
+    <nav>
+<!--       <div></div> -->
+      <p>W<strong>D</strong>ylan</p>
+      <container id="nav-links">
+        <a href="#edu">Education</a>
+        <a href="#project">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </container>
+    </nav>
+
+
     <main>
-      <section>
-        <h2>About</h2>
-        <img src="Zhenyuan-Dylan-Wang.jpg" alt="selfie">
-        <article>
-          <p>I’m a undergraduate student at the University of Miami studying Mathematics and Computer Science.I has experience in full-stack web development, software development, signal processing, data optimization, machine learning and deep learning.</p>
+      <section id="edu">
+        <!-- <img src="img/miami-skyline-adj.jpg" alt="miamiskyline" id="miami-img"> -->
+        <article id="edu-title-section">
+          <div id="edu-title-background"></div>
+          <div id="edu-title-box-background"></div>
+          <div class="h2_container">
+            <h2>Education</h2>
+          </div>
+        </article>
+        <!-- <img src="img/Zhenyuan-Dylan-Wang.jpg" alt="selfie" id="selfie"> -->
+        <article id='edu-right-section'>
+          <div id="edu-content-title-background"></div>
+          <div id="edu-content-background"></div>
+          <article id='edu-content'>
+            <h3>University of Miami</h3>
+            <h4>Bachelor of Art in <strong>Computer Science</strong></h4>
+            <h4>Bachelor of Science in <strong>Mathematics</strong></h4>
+            <h4>Minor in Political Economy</h4>
+            <p>Cumulative GPA: <strong>3.97 / 4.00</strong></p>
+            <ul>
+              <li>Honors: President’s List & Provost’s honor roll & Dean’s List</li>
+              <li>Relevant Coursework: Computer Programming, Probability & Statistics, Abstract Algebra, Multivariable Calculus, Programming Algorithm, C Programming and Unix, Statistical Analysis, Web Design, Computer Organization and Architecture</li>
+            </ul>
+          </article>
         </article>
         <!-- maybe a link to my resume file <a href=""></a>-->
       </section>
 
-      <section>
-        <h2>Projects</h2>
+      <section id="project">
+        <div class="h2_container">
+          <h2>Projects</h2>
+          <div id="project_h2_background"></div>
+        </div>
+        <div id=project_background></div>
         <!-- put all the projects info and link here -->
         <!-- each project info should be constructed as a card -->
-        <article>
-        <!-- example -->
-          <img src="kaizen.jpg" alt="kaizen-img">
-          <p>Kaizen is Wechat Mini Program Project, which is trying to build a scheduling digital product within Wachat, one of the most largest multi-purpose social media in China.</p>
-          <p>Wechat Mini Program & Website</p>
+        <article id="project_kaizen">
+          <article class="project-cards">
+            <img src="img/kaizen.jpg" alt="kaizen-img">
+<!--           <p>Kaizen is Wechat Mini Program Project, which is trying to build a scheduling digital product within Wachat, one of the most largest multi-purpose social media in China.</p> -->
+            <h3>Kaizen</h3>
+            <p>Wechat Mini Program & Website</p>
+          </article>
+        </article>
+
+        <article id="project_ecg">
+          <article class="project-cards">
+            <img src="img/R-peak-detect-2.jpg" alt="ecg-img">
+            <h3>Electrocardiogram Interpretation Tool</h3>
+            <p>Deep Learning, Python & MatLab</p>
+          </article>
+        </article>
+
+        <article id="project_artifacts">
+          <article class="project-cards">
+            <img src="img/motion-artifact.jpg" alt="artifaces-img">
+            <h3>Artifacts Detection for CT Scans of Brains</h3>
+            <p>Deep Learning, Python & C++</p>
+          </article>
         </article>
       </section>
 
-      <section>
-        <h2>Contact</h2>
-        <article>
-          <a href="https://www.facebook.com/profile.php?id=100009595642215"><img src="facebook-logo.png" alt="facebook_link"></a>
+      <section id="experience">
+        <div class="h2_container">
+          <h2>Experience</h2>
+          <div id="exp_h2_background"></div>
+        </div>
+        <article id="um_research">
+          <article class="experience_cards">
+            <h3>University of Miami, Center for Computation Science</h3>
+            <p>Research Intern</p>
+            <a href="">More Info</a>
+          </article>
+        </article>
+        <article id="um_tutor">
+          <article class="experience_cards">
+            <h3>University of Miami, Camner Center for Academic Resource</h3>
+            <p>Academic Tutor </p>
+            <a href="">More Info</a>
+          </article>
+        </article>
+        <article id="le_fullstack">
+          <article class="experience_cards">
+            <h3>Le Wagon</h3>
+            <p>Full Stack Developer </p>
+            <a href="">More Info</a>
+          </article>
+        </article>
+      </section>
+
+      <section id="contact">
+        <div class="h2_container">
+          <h2>Contact</h2>
+        </div>
+        <article id="contact_card">
+          <div id="contact_background"></div>
+          <img src="img/Zhenyuan-Dylan-Wang.jpg" alt="selfie" id="selfie">
+          <h1>ZHENYUAN <span>WANG<span></h1>
+          <div id="icons">
+            <a href="https://www.facebook.com/profile.php?id=100009595642215"><img src="img/facebook-logo.png" alt="facebook_link"></a>
 <!--      Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> -->
-          <a href="https://github.com/zywangdylan"><img src="github-sign.png" alt="githublink"></a>
+            <a href="https://github.com/zywangdylan"><img src="img/github-sign.png" alt="githublink"></a>
 <!--       Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> -->
-          <a href="https://www.instagram.com/zywangdylan/"><img src="instagram.png" alt="ins_link"></a>
+            <a href="https://www.instagram.com/zywangdylan/"><img src="img/instagram.png" alt="ins_link"></a>
 <!--       Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> -->
-          <a href="https://www.linkedin.com/in/zhenyuan-wang-5782a2157/"><img src="linkedin-logo.png" alt="linkedin_link"></a>
+            <a href="https://www.linkedin.com/in/zhenyuan-wang-5782a2157/"><img src="img/linkedin-logo.png" alt="linkedin_link"></a>
 <!--      Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> -->
+          </div>
         </article>
       </section>
     </main>
 
     <footer>
-      <p>Email:  zywangdylan@gmail.com</p>
-      <p>Handcrafted By Me <b>@</b> Zhenyuan Wang</p>
+      <p id="email">Email:  zywangdylan@gmail.com</p>
+      <p id="Handcrafted">Handcrafted By Me <strong>@ Zhenyuan Wang</strong></p>
     </footer>
   </body>
 </html>

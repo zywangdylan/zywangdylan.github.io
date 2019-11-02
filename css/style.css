@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:700|Roboto|Satisfy&display=swap');
+@import "navbar.css";
+@import "header.css";
+@import "education.css";
+@import "project.css";
+@import "experience.css";
+@import "contact.css";
+@import "footer.css";
+/*
+pink: #D81E5B;
+blue: #66C3FF;
+MILK-green:#CCD7C5;
+WHITE: #FFF8F0;
+Black:#272727;
+red:#F0544F;
+GREY: #dedede;
+c10000
+*/
+body, html{
+  height:100%;
+  margin:0;
+  scroll-behavior: smooth;
+}
+
+strong{
+  color:#F0544F;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  font-family: 'Overpass', sans-serif;
+  font-size: 50px;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+h3{
+  font-family: 'Overpass', sans-serif;
+}
+
+h4{
+  font-family: 'Overpass', sans-serif;
+}
+
+li{
+  font-family: 'Roboto', sans-serif;
+}
+
+.h2_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+
+
+

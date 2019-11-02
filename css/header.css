@@ -1,0 +1,56 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/high_w2.jpg");
+  background-repeat: no-repeat;
+  height: 60%;
+  width: 100%;
+  background-size: cover;
+  margin:0;
+  position: relative;
+}
+
+header article {
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  margin: 0;
+  color: #FFF8F0;
+  line-height: 1;
+}
+
+header article p{
+  width: 620px;
+  margin: 20px 0 0px 0;
+  padding: 0 0 10px 0;
+  line-height: 1.4;
+  z-index: 10;
+  border-bottom: 2px double #F0544F;
+}
+
+h1 {
+  position: relative;
+/*  font-family: 'Roboto', sans-serif;*/
+  font-family: 'Overpass', sans-serif;
+  font-size: 70px;
+  margin: 10px 0;
+  z-index: 5;
+}
+
+/* SPAN */
+h1 span {
+  display: block;
+}
+
+h1 strong{
+  color:#F0544F;
+}
+
+header div{
+  position: absolute;
+  width: 500px;
+  height: 35px;
+  top: 93px;
+  right: 0;
+  z-index: 2;
+  background-color: #FFF8F0;
+
+}
