@@ -49,6 +49,7 @@ nav p{
   padding: 0 45px;
   font-size: 15px;
   text-decoration: none;
+  color: black;
 }
 
 #nav-links a:visited {
