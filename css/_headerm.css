@@ -1,0 +1,122 @@
+@media only screen and (max-width: 400px) {
+  header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/high_w3tall.jpg");
+    background-repeat: no-repeat;
+  }
+  header picture img{
+    display: none;
+  }
+
+  header article{
+    top:40%;
+    width: 92%;
+    left:4%;
+    color:white;
+  }
+
+  header article p{
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  header div{
+    width: 230px;
+    height: 20px;
+    top: 50px;
+    left: 17%;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/high_w3tall.jpg");
+    background-repeat: no-repeat;
+  }
+  header picture img{
+    display: none;
+  }
+
+  header article{
+    top:40%;
+    width: 90%;
+    color:white;
+  }
+
+  header article p{
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  header div{
+    width: 300px;
+    height: 30px;
+    top: 60px;
+    left: 10%;
+  }
+}
+
+
+@media only screen and (max-width: 860px) and (min-width: 600px) {
+  header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/high_w3.jpg");
+    background-repeat: no-repeat;
+  }
+
+  header picture img{
+    display: none;
+  }
+
+  header article{
+    top:40%;
+    width: 90%;
+    left: 5%;
+    color:white;
+  }
+
+  header article p{
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  header div{
+    width: 300px;
+    height: 30px;
+    top: 60px;
+    left: 10%;
+  }
+}
+
+@media only screen and (min-width: 860px) and (max-width: 1287px) {
+  header article{
+    width: 42%;
+  }
+
+  header article p{
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  header picture img{
+    height: 80%;
+    width: auto;
+  }
+
+  header div{
+    width: 300px;
+    height: 30px;
+    top: 83px;
+    left: 20%;
+  }
+}

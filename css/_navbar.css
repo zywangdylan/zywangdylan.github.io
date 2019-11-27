@@ -1,0 +1,67 @@
+@import "_navbarm.css";
+#desktop-nav {
+  /*Nav style*/
+/*  background-color: rgba(39,39,39,0.9);*/
+  background-color: rgba(255, 255, 255, 1);
+  font-family: 'Roboto', sans-serif;
+  color: #FFF8F0;
+  padding: 15px 0;
+  text-align: center;
+  /*grid properties*/
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 15% auto;
+  /*fixed nav*/
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+}
+
+/*nav div{
+  position: absolute;
+  height:15px;
+  width: 160px;
+  top:25px;
+  background-color: #CCD7C5;
+  grid-column: 1 / span 1;
+}*/
+
+nav p{
+  margin:0;
+/*  font-family: 'Satisfy', cursive;*/
+  font-family: 'Overpass', sans-serif;
+  font-size: 34px;
+  line-height: 1;
+  color: #F0544F;
+  color:black;
+  grid-column: 1 / span 1;
+  z-index: 2;
+  letter-spacing: -4px;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#nav-links a{
+  padding: 0 45px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+#nav-links a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#nav-links a:hover {
+  color: #F0544F;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
