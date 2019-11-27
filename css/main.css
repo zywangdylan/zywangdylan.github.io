@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass:700|Roboto|Satisfy&display=swap');
-@import "_navbar.css";
-@import "_navbarm.css";
-@import "_header.css";
-@import "_headerm.css";
-@import "education.css";
+
+/*@import "education.css";
 @import "project.css";
 @import "experience.css";
 @import "contact.css";
-@import "footer.css";
+@import "footer.css";*/
 /*
 pink: #D81E5B;
 blue: #66C3FF;
@@ -22,7 +19,7 @@ c10000
 body, html{
   height:100%;
   margin:0;
-  scroll-behavior: smooth;
+/*  scroll-behavior: smooth;*/
 }
 
 strong{

@@ -1,11 +1,11 @@
-@import "_navbarm.css";
+@import "navbarm.css";
 #desktop-nav {
   /*Nav style*/
 /*  background-color: rgba(39,39,39,0.9);*/
   background-color: rgba(255, 255, 255, 1);
   font-family: 'Roboto', sans-serif;
   color: #FFF8F0;
-  padding: 15px 0;
+  padding-top: 2%;
   text-align: center;
   /*grid properties*/
   display: grid;
@@ -26,6 +26,9 @@
   background-color: #CCD7C5;
   grid-column: 1 / span 1;
 }*/
+nav a{
+  text-decoration: none;
+}
 
 nav p{
   margin:0;

@@ -1,0 +1,132 @@
+@import "main.css";
+@import "navbar.css";
+@import "navbarm.css";
+
+
+
+.h2_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+#edu {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 10% 30% 50% 10%;
+  height: 550px;
+}
+
+#edu-title-section{
+  position: relative;
+  grid-column: 2 / span 1;
+}
+
+#edu-title-section .h2_container{
+  position: absolute;
+  top: 28%;
+  left: 20%;
+  color: #272727;
+  padding: 6px 25px;
+  border: 2px solid #272727;
+  z-index: 4;
+/*  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+#edu-title-background{
+  position: absolute;
+  opacity: 0.8;
+  background-color: #F0544F;
+  height: 24px;
+  width: 130%;
+  top: 43%;
+  z-index: 3;
+  /*
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+#miami-img{
+  position: relative;
+  top: 320px;
+  z-index: -1;
+}
+
+/*#edu-title-box-background{
+  position: absolute;
+  height: 1300px;
+  width: 140px;
+  background-color:#CCD7C5 ;
+  left: 270px;
+  z-index: -1;
+  grid-column: 2 / span 1;
+}*/
+
+#edu h2{
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+#edu-right-section{
+  position: relative;
+  grid-column: 3 / span 1;
+}
+
+#edu-content{
+  position: absolute;
+  top: 3%;
+  width: 60%;
+  left: 32%;
+/*  color: white;*/
+}
+
+#edu-content h3{
+  margin: 40px 0 25px 0;
+  font-size: 25px;
+  color: #F0544F;
+  letter-spacing: 2px;
+}
+
+#edu-content-title-background{
+  position: absolute;
+  height: 110px;
+  width: 80%;
+  background-color: #F0544F;
+/*  opacity: 0.7;*/
+  left: 12%;
+/*  top: 15%;*/
+/*  border-radius: 15px 0 0 15px;*/
+/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+#edu-content-background {
+  position: absolute;
+  opacity: 0.8;
+  height: 500px;
+  width: 75%;
+  background-color: #FFF8F0;
+  margin:0;
+  top: 8%;
+  left: 22%;
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*  border-radius: 15px 0 0 15px;*/
+}
+
+#edu-content h4{
+  font-size: 20px;
+  margin:0;
+}
+
+#edu-content p{
+  margin: 10px 0;
+  font-style: italic;
+}
+
+#edu-content ul{
+  padding: 0;
+}
+
+#edu-content li{
+  padding: 15px 0;
+}
+
+
