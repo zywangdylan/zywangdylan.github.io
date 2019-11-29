@@ -1,114 +1,92 @@
 @import "main.css";
 @import "navbar.css";
 @import "navbarm.css";
+@import "educationm.css";
 
-
-
-.h2_container{
+/*.h2_container{
   display: flex;
+  position: fixed;
   justify-content: center;
   align-items: center;
   margin: 15px 0;
-}
-#edu {
-  display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: 10% 30% 50% 10%;
-  height: 550px;
-}
-
-#edu-title-section{
-  position: relative;
-  grid-column: 2 / span 1;
-}
-
-#edu-title-section .h2_container{
-  position: absolute;
-  top: 28%;
-  left: 20%;
-  color: #272727;
-  padding: 6px 25px;
-  border: 2px solid #272727;
-  z-index: 4;
-/*  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-}
-
-#edu-title-background{
-  position: absolute;
-  opacity: 0.8;
-  background-color: #F0544F;
-  height: 24px;
-  width: 130%;
-  top: 43%;
-  z-index: 3;
-  /*
-  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-}
-
-#miami-img{
-  position: relative;
-  top: 320px;
-  z-index: -1;
-}
-
-/*#edu-title-box-background{
-  position: absolute;
-  height: 1300px;
-  width: 140px;
-  background-color:#CCD7C5 ;
-  left: 270px;
-  z-index: -1;
-  grid-column: 2 / span 1;
+  left: 65%;
+  top: 30%;
 }*/
 
-#edu h2{
-  font-size: 60px;
-  letter-spacing: 5px;
+#edu {
+  height: 100vh;
 }
 
-#edu-right-section{
-  position: relative;
-  grid-column: 3 / span 1;
+
+#edu h2{
+  font-size: 85px;
+  letter-spacing: 10px;
+  transform: rotate(-90deg);
+  position: fixed;
+  right: 50%;
+  top: 30%;
 }
 
 #edu-content{
-  position: absolute;
-  top: 3%;
-  width: 60%;
-  left: 32%;
+  position: fixed;
+  top: 20%;
+  width: 50%;
+  right: 5%;
 /*  color: white;*/
 }
 
 #edu-content h3{
   margin: 40px 0 25px 0;
-  font-size: 25px;
+  font-size: 50px;
   color: #F0544F;
-  letter-spacing: 2px;
+  letter-spacing: 6px;
 }
 
-#edu-content-title-background{
-  position: absolute;
-  height: 110px;
-  width: 80%;
-  background-color: #F0544F;
-/*  opacity: 0.7;*/
-  left: 12%;
-/*  top: 15%;*/
-/*  border-radius: 15px 0 0 15px;*/
-/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+#edu-h4-content{
+  margin: 35px 0;
+}
+
+#edu-content-footer-background{
+  position: fixed;
+  bottom: 2%;
+  height: 27%;
+  width: 95%;
+  left: 5%;
+  background-color:  #F9E784;
+  z-index:-2;
+}
+
+#edu-content-bottom-background{
+  position: fixed;
+  bottom: 27%;
+  height: 1%;
+  width: 50%;
+  right: 5%;
+  background-color:  #F0544F;
 }
 
 #edu-content-background {
-  position: absolute;
-  opacity: 0.8;
-  height: 500px;
-  width: 75%;
-  background-color: #FFF8F0;
-  margin:0;
-  top: 8%;
-  left: 22%;
- /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-/*  border-radius: 15px 0 0 15px;*/
+  position: fixed;
+/*  opacity: 0.8;*/
+  height: 80%;
+  width: 63%;
+  background-color: #F1E8B8;
+  margin: 0;
+  top: 6%;
+  right: 2%;
+  z-index:-1;
+
+}
+
+#edu-content-background2 {
+  position: fixed;
+  height: 83%;
+  width: 65%;
+  background-color: #E58F65;
+  margin: 0;
+  top: 11%;
+  right: 2%;
+  z-index: -3;
 }
 
 #edu-content h4{
@@ -128,5 +106,23 @@
 #edu-content li{
   padding: 15px 0;
 }
+
+#learn-quote{
+  display: flex;
+  position: fixed;
+  text-align: right;
+  bottom: 5%;
+  left: 2%;
+  font-size: 30px;
+  width: 50%;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+#learn-quote h4 span{
+  display: block;
+}
+
+
 
 

@@ -1,3 +1,4 @@
+//dropdown js
 const mainnav = document.getElementById("mobile-nav");
 
 $('svg').click(function () {
@@ -14,4 +15,15 @@ $('svg').click(function () {
   }
 });
 
+//change color for current page link
+const as = document.query
+
+$(document ).ready(function() {
+  $("a").each(function() {
+    if (this.href == window.location.href){
+      console.log("find it");
+      $(this).addClass("current-link");
+    }
+  });
+});
 
