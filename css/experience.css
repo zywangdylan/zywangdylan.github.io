@@ -1,0 +1,81 @@
+@import "main.css";
+@import "navbar.css";
+@import "navbarm.css";
+@import "experiencem.css";
+
+#experience {
+  display: grid;
+  grid-template-rows: 10% 10% 1fr 1fr 1fr 1fr;
+  grid-template-columns: 10% auto 10%;
+  height: 100vh;
+}
+
+#experience h2{
+  position: fixed;
+  font-size: 70px;
+  left: 0%;
+  top: 30%;
+  transform: rotate(-90deg);
+}
+
+#exp_h2_background {
+  height: 1%;
+  width: 240px;
+  background-color: #F0544F;
+  position: fixed;
+  top: 15%;
+  left: 17%;
+  z-index: 1;
+}
+
+.experience_cards{
+  position: relative;
+  align-items: center;
+  margin: auto ;
+  width: 85%;
+}
+
+.experience_cards a{
+  position: absolute;
+  text-decoration: none;
+  font-family: 'Overpass', sans-serif;
+  top: 30px;
+  right: 30px;
+  color: #FFF8F0;
+  padding: 5px 10px;
+  background-color:#F0544F;
+  border-radius: 7px;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.experience_cards:hover a{
+  transition: all 0.25s ease-in;
+  opacity: 1;
+}
+
+#um_research{
+  display: flex;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+  align-items: center;
+}
+
+#um_tutor{
+  display: flex;
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+  align-items: center;
+}
+
+#le_fullstack{
+  display: flex;
+  grid-column:2 / span 1;
+  grid-row: 5 / span 1;
+  align-items: center;
+}
+
+.experience_cards:hover h3{
+  transition: all 0.25s ease-in;
+  color: #F0544F;
+}

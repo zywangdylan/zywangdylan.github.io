@@ -1,5 +1,18 @@
-@import "http://zywangdylan.me/css/navbar.css";
-@import "http://zywangdylan.me/css/navbarm.css";
-@import "http://zywangdylan.me/css/header.css";
-@import "http://zywangdylan.me/css/headerm.css";
-@import "http://zywangdylan.me/css/main.css";
+@import "navbar.css";
+@import "navbarm.css";
+@import "header.css";
+@import "headerm.css";
+@import "main.css";
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+
+#signature {
+  font-family: 'Rock Salt', cursive;
+  font-size: 70px;
+  padding: 0 !important;
+  position: fixed;
+  bottom: 8%;
+  right: 14%;
+  transform: rotate(-10deg);
+}
+
+

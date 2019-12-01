@@ -1,0 +1,24 @@
+@media only screen and (max-width: 400px) {
+  #contact_background{
+/*    display: none !important;*/
+    top: 70% !important;
+    right: 25px !important;
+    height: 10px !important;
+    z-index: 1 !important;
+  }
+
+  #contact{
+    grid-template-rows: 10% 10% auto 10% !important;
+  }
+
+  #contact_card h1{
+    transform: rotate(-90deg);
+    left: -260px !important;
+    top: 60px !important;
+    font-size: 140px !important;
+  }
+
+  .h2_container h2{
+    margin-top: 70px;
+  }
+}

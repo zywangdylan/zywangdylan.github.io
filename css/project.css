@@ -1,6 +1,7 @@
 @import "main.css";
 @import "navbar.css";
 @import "navbarm.css";
+@import "projectm.css";
 
 #project{
   display: grid;
@@ -27,6 +28,10 @@
 
 #project a{
   text-decoration: none;
+  color: #272727;
+}
+
+#project a:visited{
   color: #272727;
 }
 
@@ -173,6 +178,7 @@
   left: 33%;
   z-index: -1;
 }
+
 .popup .close {
   position: absolute;
   top: 20px;
@@ -197,10 +203,6 @@
   line-height: 25px;
 }
 
-.content p{
-  font-size: 18px !important;
-}
-
 #project-quote{
   display: flex;
   position: fixed;
@@ -218,4 +220,26 @@
   display: block;
 }
 
+#popup2 h2{
+  font-size: 28px;
+}
 
+#popup2 h3{
+  top: 23%;
+}
+
+#popup2 .popup-back{
+  bottom: 15%;
+}
+
+#popup3 h2{
+  font-size: 28px;
+}
+
+#popup3 h3{
+  top: 23%;
+}
+
+#popup3 .popup-back{
+  bottom: 15%;
+}

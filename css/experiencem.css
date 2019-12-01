@@ -1,0 +1,13 @@
+@media only screen and (max-width: 400px) {
+  #experience h2{
+    font-size: 40px !important;
+    transform: none !important;
+    top: 13% !important;
+    left: 17% !important;
+  }
+
+  #exp_h2_background{
+    top: 18% !important;
+    height: 5px !important;
+  }
+}

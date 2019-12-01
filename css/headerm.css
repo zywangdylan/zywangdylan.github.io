@@ -28,6 +28,10 @@
     top: 50px;
     left: 17%;
   }
+
+  #signature{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 600px) {
@@ -58,6 +62,10 @@
     height: 30px;
     top: 60px;
     left: 10%;
+  }
+
+  #signature{
+    display: none;
   }
 }
 
@@ -93,6 +101,10 @@
     top: 60px;
     left: 10%;
   }
+
+  #signature{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 860px) and (max-width: 1287px) {
@@ -118,5 +130,9 @@
     height: 30px;
     top: 83px;
     left: 20%;
+  }
+
+  #signature{
+    display: none;
   }
 }
